@@ -1,0 +1,19 @@
+{
+  "name": "my-directive",
+  "version": "0.0.0",
+  "authors": [
+    "trapple <trapplejp@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.0.8",
+    "angular-mocks": "1.0.8"
+  }
+}
