@@ -2,10 +2,24 @@
 <head>
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/my-directive.js"></script>
+<link rel="stylesheet" href="css/base.css" type="text/css" charset="utf-8">
 </head>
-<body>
-<h1>My Directive</h1>
-<div ng-app="myApp">
+<body ng-app="myApp">
+<h1>カスタムディレクティブのサンプル</h1>
+<h2>普通のコントローラー</h2>
+<div ng-controller="myCtrl">
+  <table>
+    <tr>
+      <th>数字</th>
+    </tr>
+    <tr ng-repeat="item in list" ng-class="class" ng-class-odd="'odd'" ng-class-even="'even'">
+      <td>{{item}}</td>
+    </tr>
+  </table>
+</div>
+<hr>
+<h2>My Directive</h2>
+<div>
   <my-directive></my-directive>
 </div>
 </body>

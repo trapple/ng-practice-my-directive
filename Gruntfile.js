@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     },
     watch: {
       dev: {
-        files: ['app/*', 'spec/*.js'],
+        files: ['app/**', 'spec/*.js'],
         tasks: ['jasmine']
       },
       options: {

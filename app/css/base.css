@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+tr.odd {
+  background-color: #ccc; 
+}
+
+tr.even {
+  background-color: #fff;
+}
